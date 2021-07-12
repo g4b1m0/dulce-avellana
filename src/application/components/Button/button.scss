@@ -1,19 +1,5 @@
 button.btn {
   &-round {
-    min-width: 90px;
-    max-width: 300px;
-    display: inline-block;
-    cursor: pointer;
-    color: white;
-    background-color: #3498db;
-    border-radius: 100%;
-    text-align: center;
-    padding: 0;
-    &::before {
-        content:'';
-        display:inline-block;;
-        vertical-align:middle;
-        padding-top:100%;
-      }              
+    border-radius: 50%;
   }
 }

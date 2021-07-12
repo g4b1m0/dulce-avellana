@@ -1,12 +1,13 @@
 .updates {
-  text-align: center;
+  display: flex;
+    justify-content: space-around;
+    width: 95%;
   
   button {
-    &:first-child {
-      margin-right: 15px;
-    }
-    &:last-child {
-      margin-left: 15px;
-    }
+    width: 50px;
+    height: 64px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+  
   }
 }

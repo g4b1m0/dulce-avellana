@@ -8,6 +8,8 @@ import Locations from "./../Home/Locations/Locations";
 import Footer from "./../../application/components/Footer/Footer";
 
 const Home = () => {
+
+
   return (
     <>
       <NavBar />
@@ -18,7 +20,7 @@ const Home = () => {
       <Reservation />
       <Locations />
       <Footer />
-
+     
     </>
   );
 };

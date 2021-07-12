@@ -1,13 +1,14 @@
 import Button from "./../../../application/components/Button/Button"
 import "./updates.scss";
+import CakeIcon from '@material-ui/icons/Cake';
 
 const Updates = () => {
   return (
     <>
       <section className="updates container">
-        <Button label="UPDATE 1" styleBtn="round" />
-        <Button label="UPDATE 2" styleBtn="round" />
-        <Button label="UPDATE 3" styleBtn="round" />
+        <Button label={<CakeIcon />} styleBtn="round" />
+        <Button label={<CakeIcon />} styleBtn="round" />
+        <Button label={<CakeIcon />} styleBtn="round" />
       </section>
 
     </>
@@ -15,4 +16,3 @@ const Updates = () => {
 }
 
 export default Updates
-  

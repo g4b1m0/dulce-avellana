@@ -14,24 +14,32 @@
   &--change {
     background: #a3d6cf;
     animation: nav--change-in 1s forwards;
-    .nav_title {
-      display: none;
+    .nav_logo {
+      .cls-1{
+        fill:#ffffff;
+      }
     }
+    .nav_shopping{
+      fill: #ffffff;
+    }
+    .nav_btn{
+      fill: #ffffff;
+    }
+  
   }
 
   .nav_btn {
     font-size: 2rem;
-    color: #fff;
+    color:#af7c58;
   }
   .nav_shopping {
-    color: #fff;
+    color: #af7c58;
   }
 
   &_logo {
-    border-radius: 50%;
-    width: 4rem;
+    width: 13rem;
     display: block;
-    margin: auto;
+    padding: 18px;
   }
 
   &_brand {
