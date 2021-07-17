@@ -1,13 +1,23 @@
 .updates {
   display: flex;
-    justify-content: space-around;
-    width: 95%;
-  
+  justify-content: space-around;
+  width: 95%;
+  margin-top: 4rem;
+
   button {
     width: 50px;
     height: 64px;
     background-color: transparent;
-    border: 1px solid #ccc;
-  
+    background-position: center;
+    background-size: cover;
+    &.button-1 {
+      background-image: url("/assets/brunchduce.jpeg");
+    }
+    &.button-2 {
+      background-image: url("/assets/dulce.jpeg");
+    }
+    &.button-3 {
+      background-image: url("/assets/dulcedd.jpeg");
+    }
   }
 }

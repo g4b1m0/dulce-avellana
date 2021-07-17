@@ -1,16 +1,19 @@
 import "./aboutUs.scss";
- 
+import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
+
 const AboutUs = () => {
-    return (
-      <>
-      <section className="aboutUs container"> 
-        <h2 className="aboutUs_title">historia</h2>
-        <p className="aboutUs_description">lorem ipsum dolor sit amet, consect lorem ipsum dolor lorem ipsum</p>
+  return (
+    <>
+      <section className="aboutUs container">
+        <h2 className="aboutUs_title text_handwrite">
+          Detras de cada plato una historia con amor... ♡
+        </h2>
+        <a className="aboutUs_link" href="/">
+          conoce mas <ArrowRightAltIcon />
+        </a>
       </section>
-  
-      </>
-    );
-  }
-  
-  export default AboutUs ;
-  
+    </>
+  );
+};
+
+export default AboutUs;

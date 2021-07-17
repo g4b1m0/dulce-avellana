@@ -5,4 +5,21 @@
     background-image: url("/assets/bgmovil.jpg");
     background-position: center;
     background-size: cover;
+    position: relative;
+    .coverpage-overlay{
+        background: #8181813d;
+        height: 100%;
+    }
+    .coverpage-title {
+        position: absolute;
+        color: #fff;
+        bottom: 6rem;
+/*         top: 50%;
+        transform: translateY(-50%); */
+        margin-left: 2rem;
+        margin-right: 2rem;
+        .coverpage-title_handwrite{
+            font-size: 5.6rem;
+        }
+    }
 } 
