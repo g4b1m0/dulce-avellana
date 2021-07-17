@@ -1,10 +1,10 @@
-import Carousel from "react-material-ui-carousel";
 import Button from "./../../../application/components/Button/Button";
 
-import { Paper } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
 import "./menu.scss";
 
+/* 
+import { Paper } from "@material-ui/core";
+import Carousel from "react-material-ui-carousel";
 function Example(props) {
   var items = [
     {
@@ -36,7 +36,7 @@ function Item({ item }) {
       <h3>{item.name}</h3>
     </Paper>
   );
-}
+} */
 
 const Menu = () => {
   return (
@@ -44,20 +44,20 @@ const Menu = () => {
       <section className="menu">
         <div className="menu_card">
           <div className="menu_image"> </div>
-          <h3 className="menu_subtitle text_handwrite" >Antojate</h3>
+          <h3 className="menu_subtitle text_handwrite">Antojate</h3>
           <h2 className="menu_title">BRUNCH</h2>
           <Button className="menu_btn" label="Take a bit " />
         </div>
 
         <div className="menu_card">
           <div className="menu_image"> </div>
-          <h3 className="menu_subtitle text_handwrite" >Antojate</h3>
+          <h3 className="menu_subtitle text_handwrite">Antojate</h3>
           <h2 className="menu_title">BRUNCH</h2>
           <Button className="menu_btn" label="Take a bit " />
         </div>
         <div className="menu_card">
           <div className="menu_image"> </div>
-          <h3 className="menu_subtitle text_handwrite" >Antojate</h3>
+          <h3 className="menu_subtitle text_handwrite">Antojate</h3>
           <h2 className="menu_title">BRUNCH</h2>
           <Button className="menu_btn" label="Take a bit " />
         </div>

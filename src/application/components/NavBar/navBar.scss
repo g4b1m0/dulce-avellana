@@ -55,3 +55,74 @@
     }
   }
 }
+
+.navitem{
+  text-align: center;
+  color: #AF7C58;
+  position: relative;
+  padding: 7rem 0rem;
+  font-weight: 400;
+  li {
+    list-style: none;
+    margin: 4rem 0rem;
+    h2 {
+      font-weight: 400;
+    }
+  }
+  &::before{
+    content: "........";
+    position: absolute;
+    font-size: 3.6rem;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  &::after{
+    content: "........";
+    position: absolute;
+    font-size: 3.6rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.nav_mobile{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0px auto;
+  svg {
+    font-size: 2.4rem;
+    color: #AF7C58;
+  }
+}
+.nav-redes{
+  color: #AF7C58;
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  &::before{
+    content: "";
+    font-size: 3.6rem;
+    position: absolute;
+    top: -1.6rem;
+    left: 0;
+    right: 0;
+    width: 95%;
+    height: 0.1rem;
+    margin: 0px auto;
+    background-color: #fff;
+  }
+  svg{
+    font-size: 3rem;
+    margin: 0px 1rem;
+  }
+  p{
+    margin-bottom: 1rem;
+  }
+}
